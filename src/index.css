@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Ensure Excalidraw fills its container */
+.excalidraw-container {
+  width: 100%;
+  height: 100%;
+}
+
+.excalidraw {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Lesson beat content: markdown at full technical depth */
+.prose-beat {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: #1e293b;
+}
+.prose-beat > *:first-child { margin-top: 0; }
+.prose-beat > *:last-child { margin-bottom: 0; }
+.prose-beat h1, .prose-beat h2, .prose-beat h3 {
+  font-weight: 600;
+  color: #0f172a;
+  margin: 1em 0 0.4em;
+}
+.prose-beat h1 { font-size: 1.15rem; }
+.prose-beat h2 { font-size: 1.05rem; }
+.prose-beat h3 { font-size: 0.95rem; }
+.prose-beat p { margin: 0.5em 0; }
+.prose-beat ul, .prose-beat ol { margin: 0.5em 0; padding-left: 1.4em; }
+.prose-beat ul { list-style: disc; }
+.prose-beat ol { list-style: decimal; }
+.prose-beat li { margin: 0.2em 0; }
+.prose-beat code {
+  font-size: 0.85em;
+  background: #f1f5f9;
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+}
+.prose-beat pre {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 0.75em 1em;
+  overflow-x: auto;
+  margin: 0.6em 0;
+}
+.prose-beat pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.8rem;
+}
+.prose-beat blockquote {
+  border-left: 3px solid #cbd5e1;
+  margin: 0.6em 0;
+  padding-left: 0.9em;
+  color: #475569;
+}
+.prose-beat table {
+  border-collapse: collapse;
+  margin: 0.6em 0;
+  font-size: 0.85em;
+}
+.prose-beat th, .prose-beat td {
+  border: 1px solid #e2e8f0;
+  padding: 0.3em 0.7em;
+}
+.prose-beat th { background: #f8fafc; font-weight: 600; }
+.prose-beat .katex-display {
+  margin: 0.7em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.2em 0;
+}
+.prose-beat a { color: #4f46e5; text-decoration: underline; }

@@ -1,0 +1,16 @@
+# Never commit the API key
+.env
+
+# Per-user saved state
+data/
+
+node_modules/
+dist/
+*.log
+.claude/settings.local.json
+
+demo-video/
+public/lecture.pdf
+
+# Local-only demo recording tooling
+scripts/

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Flat two-tone camel, after the Socrates logo (camel only) -->
+  <g>
+    <!-- far legs (dark) -->
+    <path fill="#2E7BE0" d="M168 300 L156 428 q-1 16 13 16 h20 q13 0 11 -16 L212 300 Z"/>
+    <path fill="#2E7BE0" d="M296 300 L286 428 q-1 16 13 16 h20 q13 0 11 -16 L342 300 Z"/>
+    <!-- tail (dark) -->
+    <path fill="#2E7BE0" d="M126 244 q-34 44 -24 92 q3 12 14 7 q10 -46 34 -82 Z"/>
+    <!-- neck (light) -->
+    <path d="M352 272 Q394 232 400 142" stroke="#A6CBF7" stroke-width="54" stroke-linecap="round" fill="none"/>
+    <!-- hump + body (light) -->
+    <circle cx="228" cy="182" r="86" fill="#A6CBF7"/>
+    <ellipse cx="248" cy="262" rx="138" ry="66" fill="#A6CBF7"/>
+    <!-- near legs (light) with dark feet -->
+    <path fill="#A6CBF7" d="M198 300 L190 424 q-1 16 13 16 h20 q13 0 11 -16 L240 300 Z"/>
+    <path fill="#A6CBF7" d="M330 300 L322 424 q-1 16 13 16 h20 q13 0 11 -16 L372 300 Z"/>
+    <path fill="#2E7BE0" d="M189 422 h46 q4 10 -2 15 q-4 3 -12 3 h-20 q-14 0 -12 -18 Z"/>
+    <path fill="#2E7BE0" d="M321 422 h46 q4 10 -2 15 q-4 3 -12 3 h-20 q-14 0 -12 -18 Z"/>
+    <!-- head (light) -->
+    <path fill="#A6CBF7" d="M370 104 Q398 82 432 92 L474 108 Q494 116 490 134 Q488 148 468 148 L428 152 Q392 156 376 134 Q368 120 370 104 Z"/>
+    <!-- ear, eye, nostril, mouth (dark) -->
+    <path fill="#2E7BE0" d="M384 96 Q370 72 385 63 Q400 58 402 84 Z"/>
+    <ellipse cx="434" cy="114" rx="10" ry="6.5" fill="#2E7BE0" transform="rotate(14 434 114)"/>
+    <circle cx="476" cy="124" r="5.5" fill="#2E7BE0"/>
+    <path fill="#2E7BE0" d="M458 142 q16 4 26 -4 l4 12 q-14 10 -32 4 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+{
+  "name": "socrates",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An AI tutor that makes learning hard on purpose: adaptive, interactive, multi-modal lessons.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turquoise5/socrates.git"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"node server.js\" \"vite\"",
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@excalidraw/excalidraw": "^0.17.6",
+    "@monaco-editor/react": "^4.7.0",
+    "concurrently": "^10.0.3",
+    "d3": "^7.9.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "katex": "^0.17.0",
+    "lucide-react": "^0.446.0",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  }
+}
